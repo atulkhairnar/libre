@@ -1,26 +1,19 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Small Business](http://startbootstrap.com/template-overviews/small-business/)
-
-[Small Business](http://startbootstrap.com/template-overviews/small-business/) is a responsive marketing landing page template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+# [Lokayat](http://lokayat.org.in/)
 
 ## Getting Started
 
-To use this template, choose one of the following options to get started:
-* Download the latest release on Start Bootstrap
-* Fork this repository on GitHub
+Lokayat is a social activists group based in Pune.
 
 ## Bugs and Issues
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-small-business/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/small-business/).
+Have a bug or an issue with this website? [Open a new issue](https://github.com/atulnkhairnar/lokayat/issues) here on GitHub.
 
 ## Creator
 
-Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+* https://twitter.com/atulnkhairnar
+* https://github.com/atulnkhairnar
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
 ## Copyright and License
-
-Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-small-business/blob/gh-pages/LICENSE) license.
+GNU GENERAL PUBLIC LICENSE Version 3 https://github.com/atulnkhairnar/lokayat/blob/master/LICENSE
