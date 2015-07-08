@@ -1,4 +1,4 @@
-# [Libre]
+# Libre
 
 ## Getting Started
 
