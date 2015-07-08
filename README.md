@@ -1,12 +1,12 @@
-# [Lokayat](http://lokayat.org.in/)
+# [Libre]
 
 ## Getting Started
 
-Lokayat is a social activists group based in Pune.
+Libre is an open website project for a community
 
 ## Bugs and Issues
 
-Have a bug or an issue with this website? [Open a new issue](https://github.com/atulnkhairnar/lokayat/issues) here on GitHub.
+Have a bug or an issue with this website? [Open a new issue](https://github.com/atulnkhairnar/libre/issues) here on GitHub.
 
 ## Creator
 
@@ -16,4 +16,4 @@ Have a bug or an issue with this website? [Open a new issue](https://github.com/
 
 
 ## Copyright and License
-GNU GENERAL PUBLIC LICENSE Version 3 https://github.com/atulnkhairnar/lokayat/blob/master/LICENSE
+GNU GENERAL PUBLIC LICENSE Version 3 https://github.com/atulnkhairnar/libre/blob/master/LICENSE
