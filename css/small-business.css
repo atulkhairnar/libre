@@ -32,17 +32,14 @@ footer {
 
 .news-panel {
 	max-height: 800px; 
-	overflow-y: scroll;
 }
 
 .event-panel, .pub-panel, .video-panel {
 	max-height: 360px; 
-	overflow-y: scroll;
 }
 
 .join-panel, .connect-pannel {
 	max-height: 180px; 
-	overflow-y: scroll;
 }
 
 .sitemap {
