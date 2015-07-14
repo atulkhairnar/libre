@@ -46,3 +46,6 @@ footer {
 	padding-top: 30px; 
 }
 
+body > section {
+    padding: 50px 0;
+}
