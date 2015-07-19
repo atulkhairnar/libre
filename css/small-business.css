@@ -4,16 +4,51 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
 body {
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    /*padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
 }
 
 .navbar-fixed-top .nav {
     padding: 15px 0;
 }
 
+.menu {
+    float : right;
+}
+
+.navbar-cover {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    padding: 15px;
+}
+
+/* carousel*/
+h2{
+    margin: 0;     
+    color: #666;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;    
+}
+.item{
+    background: #333;    
+    text-align: center;
+    height: 300px !important;
+}
+.carousel{
+    margin-top: 20px;
+}
+.bs-example{
+    margin: 20px;
+}
+/* Corousel End */
+
 .navbar-fixed-top .navbar-brand {
-    padding: 0 15px;
+    top: 0;
+    position: fixed;
 }
 
 footer {
@@ -22,7 +57,7 @@ footer {
 
 @media(min-width:768px) {
     body {
-        padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+        /* padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
     }
 
     .navbar-fixed-top .navbar-brand {
@@ -48,4 +83,11 @@ footer {
 
 body > section {
     padding: 50px 0;
+}
+
+.go-input {
+    padding: 2px;
+    border: 2px solid #d32f2f;
+    color: black;
+    display: inline-block;
 }
