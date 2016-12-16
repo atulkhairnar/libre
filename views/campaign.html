@@ -1,0 +1,16 @@
+<div class="container clearfix ">
+    <div class="row main-panel clearfix" ng-controller="campaignsCtrl">
+        <div class="col-md-12 clearfix" ng-repeat="campaign in campaigns">
+            <div class="book-panel shadow-z-1">
+                <div class="book-image image-box">
+                    <img class="bookimg campimg" ng-src="{{ campaign.img }}" />
+                </div>
+                <div class="book-disc">
+                    <b>{{ campaign.name }}</b>
+                    <p>{{campaign.discription}}</p>
+                    <a ng-href="{{ campaign.download}}"><button class="btn btn-material-red-700">Read More</button></a>
+                </div>
+            </div>
+        </div>  
+    </div>
+</div>

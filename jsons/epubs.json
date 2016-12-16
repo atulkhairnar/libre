@@ -1,0 +1,27 @@
+[
+  { "img" : "img/book/govtpoor.bmp.jpg",
+    "name" : "Is the Government Really Poor?",
+    "download" : "./books/IsTheGovLokayat.epub",
+    "discription" : "A detailed exposure of how the government is cutting expenditure on the public, especially the poor and transferring them to the rich."  
+  },
+  { "img" : "img/book/FDIretailEng.jpg",
+    "name" : "Fight FDI in Retail",
+    "download" : "./books/FDI_ENG.epub",
+    "discription" : "FDI in retail sector will bring disastrous changes into country. This book talks about effects of multinationals such as walmart on local economy."
+  },
+  { "img" : "img/book/iradeeng.bmp.jpg",
+    "name" : "Let's Rise From the Shadows",
+    "download" : "./books/RiseFromShadowsLokayat.epub",
+    "discription" : "It comprises of nine articles on how women are stereotyped in society.It questions the unjust practices conducted under the name of traditions, rituals and also critiques the role of media in promoting women as a commodity."
+  },
+  { "img" : "img/book/licmar.bmp.jpg",
+    "name" : "Public sector insuarence on sale!",
+    "download" : "./books/LICEng.epub",
+    "discription" : "The government pushed through a bill in the Indian Parliament to allow FDI upto 49% in the insurance sector. The government is claiming that it will lead to increased insurance penetration, and will lead to greater mobilisation of domestic savings for investment in the infrastructure sector. Will FDI indeed benefit the Indian economy?"
+  },
+  { "img" : "img/book/FascistAttack.png",
+    "name" : "Neoliberal fascist attack on education",
+    "download" : "./books/NeolibrlFascistEnglishLokayat.epub",
+    "discription" : "Education is probably the most important component of nation and society building. This book exposes in detail the policies of the Indian ruling classes towards education - a policy of corporatisation and lately of saffronisation."  
+  }
+]

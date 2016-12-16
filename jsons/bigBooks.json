@@ -1,0 +1,17 @@
+[
+        { "img" : "img/book/NuclearBigBookCover.jpg",
+          "name" : "Nuclear Energy : Technology from Hell, by Neeraj Jain",
+          "download": "./books/nuclearBigBook.pdf",
+          "discription" : "One of the most well researched and extensive critiques of the nuclear energy policy, this book remains unchallenged by the Nuclear Establishment. Systematically  demolishing the myths of `safe, clean, cheap' nuclear energy, it exposes the real reason behind the Indo-US Nuclear Deal and India's nuclear push. It also explains how India can fulfill it's energy needs without going nuclear."
+        },
+        { "img" : "img/book/globook.jpg",
+          "name" : "Globalization or Recolonization ?",
+          "download": "./books/globook.pdf",
+          "discription" : "Globalization or Recolonization by Neeraj Jain ."
+        },
+        { "img" : "img/book/globookm.jpg",
+          "name" : "Jagtikikaran ki navi gulamgiri ?",
+          "download": "./books/globook_marathi.pdf",
+          "discription" : "Jagtikikaran ki navi gulamgiri by Neeraj Jain ."
+        }
+    ]

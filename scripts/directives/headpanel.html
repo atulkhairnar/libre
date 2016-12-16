@@ -1,0 +1,33 @@
+<div class="cover header">
+    <div class="navbar navbar-cover navbar-material-blue-700 ">
+        <div class="container-fluid">
+            <span>
+                <img src="img/logo-icon.jpg" style="height:80; float:left">
+                <span class="lokayat-title" style="float:left; margin-right:10px;">LOKAYAT</span>
+            </span>
+            <div class="menu">
+                <ul class="nav navbar-nav navbar-left" style="font-size:120%; ">
+                    <li  ng-class="{active: $route.current.activeTab == 'home'}">
+                        <a href="#/">Home</a>
+                    </li>
+                    <li  ng-class="{active: $route.current.activeTab == 'campaigns'}">
+        		        <a href="#/campaigns">Campaigns</a>
+        		    </li>
+                    <li  ng-class="{active: $route.current.activeTab == 'publication'}">
+                        <a href="#/publication">Publications</a>
+                    </li>
+                    <li ng-class="{active: $route.current.activeTab == 'media'}">
+                        <a href="#/media" class="dropdown" >Media</a>
+                    </li>
+<!-- This is temporary edit, to join us -->
+                    <li ng-class="{active: $route.current.activeTab == 'join'}">
+                        <a href="#/join">Join Us</a>
+                    </li>
+                    <li ng-class="{active: $route.current.activeTab == 'kviff'}">
+                        <a href="#/kviff"><b>KVIFF 2017</b></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

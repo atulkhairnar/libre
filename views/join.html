@@ -1,0 +1,59 @@
+<div class="container join-container clearfix">
+<div class="row">
+    <div class="col-md-7">
+    	<h4>About Us</h4>
+            <p>Lokayat is an activists group based in the city of Pune, India. We are a part of the nationwide anti-globalisation movement. We work on various social issues.</p>
+            <p>We meet every Sunday between 5 to 7pm in the evening.</p>
+            <h4>Address</h4>
+            <address>
+                <strong>Lokayat</strong><br>
+                "Infinity", Below Lenovo Showroom<br>
+                Opp. Syndicate Bank<br>
+                Near Nirmitee Showroom<br>
+                Law College Road, Nalstop<br>
+                <abbr title="Phone">Phone :</abbr> 9422319129
+            </address>
+            
+        <h4>Contact Form</h4>
+        <div class="status alert alert-success" style="display: none"></div>
+        <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="views/sendmail.php" data-toggle="validator" role="form">
+            <div class="row">
+                <div class="col-sm-5">
+                    <div class="form-group">
+                    	First Name :
+                        <input type="text" name="Fname" class="form-control" required="required" placeholder="First Name" pattern = "^[a-zA-Z]+$"/>
+                    </div>
+                    <div class="form-group">
+                    	Last Name :
+                        <input type="text" name="Lname" class="form-control" required="required" placeholder="Last Name" pattern = "^[a-zA-Z]+$"/>
+                    </div>
+                    <div class="form-group">
+                    	Current City :
+                        <input type="text" name="CCity" class="form-control" required="required" placeholder="Current city" pattern = "^[a-zA-Z]+$"/>
+                    </div>
+                    <div class="form-group">
+                    	Mobile Number :
+                        <input type="text" name="Phone" class="form-control" required="required" placeholder="Phone Number" pattern = "^[0-9]+$"/>
+                    </div>
+                    <div class="form-group">
+                    	Email ID:
+                        <input type="email" name="Email" class="form-control" ng-model="email" required="required" placeholder="Email address" />
+                      
+                    </div>
+                    <div class="form-group">
+                        <input type= "submit" value = "Join us !" class="btn btn-material-red-700"/>
+                    </div>
+                </div>
+                <div class="col-sm-7">
+                	Message (optional)<br>
+                    <textarea name="message" id="message" class="form-control" rows="8" placeholder="Message (if any)"></textarea>
+                </div>
+            </div>
+        </form>
+    </div><!--/.col-sm-8-->
+    <div class="col-sm-4">
+        <h4>Our Location</h4>
+        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="400" height="250" src="https://maps.google.com/maps?hl=en&q=Lokayat&ie=UTF8&t=roadmap&z=16&iwloc=B&output=embed"></iframe>
+    </div><!--/.col-sm-4-->
+</div>
+</div>

@@ -1,0 +1,120 @@
+        <div class="container clearfix ">
+            <div class="panel panel-material-blue-700">
+             <div name = "scroll" id="scroll" class="panel-heading" >
+              <div class = "panel-title">
+                 <p> <b> <h3> Scroll To   
+                     <a href="" ng-click="changeAnchor('LBooks')" style=" color: inherit; padding-top: 20px;  padding-bottom: 20px;">-  Lokayat Books,</a>
+                     <a href="" ng-click="changeAnchor('LBooksepub')" style=" color: inherit; padding-top: 20px;  padding-bottom: 20px;"> ePubs,</a></h3></b></p>
+                     <a href="" ng-click="changeAnchor('sulabhatai')" style=" color: inherit; padding-top: 20px;  padding-bottom: 20px;"> Sulabha Brahme Books, </a>
+                     <a href="" ng-click="changeAnchor('ramP')" style=" color: inherit; padding-top: 20px;  padding-bottom: 20px;">Ram Puniyani Books</a>
+                     
+                 </div></div></div>
+                 
+                 <div id="Lbooklets" name="Lbooklets" class="row main-panel clearfix" ng-controller="booksCtrl">
+                     <div class="panel panel-material-blue-700">
+                      <div class="panel-heading">
+                          <h3 class="panel-title">Lokayat Booklets</h3>
+                      </div>
+                      <div class="panel-body">
+                         <div class="col-md-6 clearfix" ng-repeat="book in books">
+                             <div class="book-panel shadow-z-1">
+                                 <div class="book-image image-box">
+                                     <img class="bookimg" ng-src="{{ book.img }}" />
+                                 </div>
+                                 <div class="book-disc">
+                                     <b>{{ book.name }}</b>
+                                     <p class="p-book-synopsis">{{book.discription}}</p>
+                                     <a class="a-book-download"  ng-href="{{ book.download}}" download><button class="btn btn-material-red-700">Download</button></a>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <br>
+                 <div id="LBooks" name="LBooks" class="panel panel-material-blue-700">
+                  <div class="panel-heading">
+                      <h3 class="panel-title">Lokayat Books</h3>
+                  </div>
+                  <div class="panel-body">
+                     <div class="col-md-6 clearfix" ng-repeat="book in bigBooks">
+                         <div class="book-panel shadow-z-1">
+                             <div class="book-image image-box">
+                                 <img class="bookimg" ng-src="{{ book.img }}" />
+                             </div>
+                             <div class="book-disc">
+                                 <b>{{ book.name }}</b>
+                                 <p class="p-book-synopsis">{{book.discription}}</p>
+                                 <a  class="a-book-download"  ng-href="{{ book.download}}" download><button class="btn btn-material-red-700">Download</button></a>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <br>
+             
+             <!--EPUBS-->
+             <div id="LBooksepub" name="LBooksepub" class="panel panel-material-blue-700">
+              <div class="panel-heading">
+                  <h3 class="panel-title">Lokayat Books - also in ePubs ! for mobile friendly reading</h3>
+              </div>
+              <div class="panel-body">
+                 <div class="col-md-6 clearfix" ng-repeat="book in epubs">
+                     <div class="book-panel shadow-z-1">
+                         <div class="book-image image-box">
+                             <img class="bookimg" ng-src="{{ book.img }}" />
+                         </div>
+                         <div class="book-disc">
+                             <b>{{ book.name }}</b>
+                             <p class="p-book-synopsis">{{book.discription}}</p>
+                             <a  class="a-book-download"  ng-href="{{ book.download}}" download><button class="btn btn-material-red-700">Download ePub</button></a>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         
+         
+         <div id="ramP" name="ramP" class="panel panel-material-blue-700">
+          <div class="panel-heading">
+              <h3 class="panel-title">Books and Articles by Dr.Ram Puniyani</h3>
+          </div>
+          <div class="panel-body">
+             <div class="col-md-6 clearfix" ng-repeat="book in ramPuniyani">
+                 <div class="book-panel shadow-z-1">
+                     <div class="book-image image-box">
+                         <img class="bookimg" ng-src="{{ book.img }}" />
+                     </div>
+                     <div class="book-disc">
+                         <b>{{ book.name }}</b>
+                         <p class="p-book-synopsis">{{book.discription}}</p>
+                         <a  class="a-book-download"  ng-href="{{ book.download}}" download><button class="btn btn-material-red-700">Download</button></a>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+     
+     <div id="sulabhatai" class="panel panel-material-blue-700">
+      <div class="panel-heading">
+          <h3 class="panel-title">Books by Dr. Sulabha Brahme</h3>
+      </div>
+      <div class="panel-body">
+         <div class="col-md-6 clearfix" ng-repeat="book in sulabhaBrahme">
+             <div class="book-panel shadow-z-1">
+                 <div class="book-image image-box">
+                     <img class="bookimg" ng-src="{{ book.img }}" />
+                 </div>
+                 <div class="book-disc">
+                     <b>{{ book.name }}</b>
+                     <p class="p-book-synopsis">{{book.discription}}</p>
+                     <a class="a-book-download" ng-href="{{ book.download}}" download><button class="btn btn-material-red-700">Download</button></a>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
+ <div name ="top" style="float:right; color : inherit;">
+  <a href="" ng-click="changeAnchor('scroll')"><button class="btn btn-material-red-700 btn-sm">Go to TOP</button></a>
+</div>
+</div>
+</div>
