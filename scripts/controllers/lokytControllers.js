@@ -1,10 +1,4 @@
 angular.module('lokytControllers', ['ngRoute'])
-	.controller('mainController',[ '$scope', '$route', function($scope, $route) {
-	    // create a message to display in our view
-	    $scope.$route = $route;
-	    $scope.message = 'Everyone come and see how good I look!';
-	}])
-
 	.controller('campaignsCtrl', function($scope, $route) {
 		$scope.$route = $route;
 	    $scope.campaigns = [

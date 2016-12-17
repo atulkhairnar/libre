@@ -30,7 +30,7 @@
 }
 body {
   color: #34495e;
-  background: #FFFFFF;
+  background: #ededed;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
@@ -1088,4 +1088,9 @@ ul.faq li > div h3 {
   text-align: center;
   margin-top: 150px;
   margin-bottom: 150px;
+}
+
+.main-page-message {
+  background-color: #FFF;
+  padding: 15px;
 }
