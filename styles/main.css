@@ -1094,3 +1094,9 @@ ul.faq li > div h3 {
   background-color: #FFF;
   padding: 15px;
 }
+
+.block-image { 
+  width: 100%; 
+  display: block; 
+  margin-bottom: 20px;
+}
