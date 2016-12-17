@@ -180,6 +180,8 @@ h1 {
     width: 100%;
     z-index: 99;
     padding: 15px;
+    position: fixed;
+    opacity: .9;
 }
 
 /* carousel*/
