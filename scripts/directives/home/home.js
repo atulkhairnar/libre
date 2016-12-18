@@ -7,4 +7,6 @@ angular.module('lokytControllers', [])
 	    }).error(function(data) {
 	    	console.log(data);
 	    });
+
+	    $scope.downloadBook = "img/book/nfaoe.jpg";
 	}]);
