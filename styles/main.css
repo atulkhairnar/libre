@@ -178,7 +178,7 @@ ul.unstyled {
   font-size: 16px;
 }
 
-.home-post-image, .new-arraival-img {
+.home-post-image, .prop-img {
   margin-bottom: 15px;
   width: 100%;
   display: block;
@@ -188,11 +188,11 @@ ul.unstyled {
   color : #6f5499;
 }
 
-.new-arraival {
+.prop-box {
   margin-top: 60px;
 }
 
-.new-arraival-title {
+.prop-title {
   text-align: left;
   border-bottom :  3px solid black; 
   margin-bottom: 25px;
