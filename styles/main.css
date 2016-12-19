@@ -172,7 +172,7 @@ ul.unstyled {
 }
 
 .home-post-entry {
-  background-color: #FCFCFC;
+  background-color: #FAFAFA;
   padding-top: 15px;
   font-family: 'Istok Web', sans-serif;
   font-size: 17px;
@@ -194,6 +194,11 @@ ul.unstyled {
 
 .new-arraival-title {
   text-align: left;
-  border-bottom :  1px solid black; 
+  border-bottom :  3px solid black; 
   margin-bottom: 25px;
+  margin-left: 30px;
 } 
+
+.icon-span {
+  float: left;
+}
