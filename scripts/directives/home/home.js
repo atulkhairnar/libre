@@ -9,4 +9,5 @@ angular.module('lokytControllers', [])
 	    });
 
 	    $scope.downloadBook = "img/book/nfaoe.jpg";
+	    $scope.eventImg = "img/event/atmaswar.jpg";
 	}]);
