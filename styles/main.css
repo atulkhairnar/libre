@@ -203,6 +203,20 @@ ul.unstyled {
   float: left;
 }
 
+.participate-div {
+  background-color: #d32f2f;
+  margin-top: 50px;
+  padding: 40px 0;
+}
+
+.participate-text-div > a {
+  color : #fff; 
+  font-size: 2.3em;
+}
+
+.participate-text-div > a:hover {
+  text-decoration: underline white ;  
+}
 
 /*************** JOIN IN PAGE *********************/
 
@@ -212,12 +226,12 @@ ul.unstyled {
 }
 
 .about-us-div {
-  background-color: rgba(0, 0, 0, .75);
+  background-color: rgba(0, 0, 0, .50);
   color: #fff;
 }
 
 .contact-form-div {
-  background-color: rgba(25, 118, 210, .75);
+  background-color: rgba(25, 118, 210, .50);
   color: #fff;
   
 }
