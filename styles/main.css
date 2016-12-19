@@ -172,10 +172,10 @@ ul.unstyled {
 }
 
 .home-post-entry {
-  background-color: #FAFAFA;
+  background-color: #EDEDED;
   padding-top: 15px;
   font-family: 'Istok Web', sans-serif;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .home-post-image, .new-arraival-img {
@@ -201,4 +201,27 @@ ul.unstyled {
 
 .icon-span {
   float: left;
+}
+
+
+/*************** JOIN IN PAGE *********************/
+
+.top-container {
+  margin-top: 90px;
+  padding-top: 30px;
+}
+
+.about-us-div {
+  background-color: rgba(0, 0, 0, .75);
+  color: #fff;
+}
+
+.contact-form-div {
+  background-color: rgba(25, 118, 210, .75);
+  color: #fff;
+  
+}
+
+.join-container {
+  background: url('/img/joinus.jpg') 0 0 repeat;
 }

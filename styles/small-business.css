@@ -14,13 +14,6 @@ body {
     padding: 15px 0;
 }
 
-h1 {
-    font-family: 'PT Serif', serif;
-    font-size: 40px;
-    color: #000;
-    font-weight: 700;
-}
-
 .panel-material-blue-700>.panel-heading {
     background-color: #1976d2;
 }
@@ -135,9 +128,6 @@ h1 {
     text-align : center;
 }
 
-.dashboard {
-    font-family: 'PT Serif', serif;
-}
 
 .menu {
     float : right;
@@ -164,11 +154,6 @@ h1 {
     padding: 7px;
 }
 
-.main-container {
-    font-family: 'PT Serif', serif;
-    font-size: 18px;
-    color: #000;
-}
 
 .book-disc {
     width: 60%;
