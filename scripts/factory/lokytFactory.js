@@ -29,4 +29,11 @@ lFactory.factory('Campaign', ['$resource',
     return $resource('jsons/:campaignID.json', {}, {
       query: {method:'GET', params:{campaignID:'education'}, isArray:true}
     });
-  }]);
+}]);
+
+lFactory.factory('News', ['$resource',
+  function($resource){
+    return $resource('jsons/:newsid.json', {}, {
+      query: {method:'GET', params:{campaignID:'education'}, isArray:true}
+    });
+}]);

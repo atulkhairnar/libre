@@ -1,4 +1,4 @@
-angular.module('lokytControllers', [])
+angular.module('lokytControllers')
 	.controller('mainController', ['$scope', '$http', function($scope, $http) {
 		var url = 'jsons/home.json';
 		$scope.noUpcomingEvent = true;   // no upcoming events
