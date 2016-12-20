@@ -1,25 +1,8 @@
-[
-	{
-		"title" : "Mukticha Atmaswar (Self-Expressions of Freedom)",
-		"date" : "December 12, 2016",
-		"link" : "mukticha_atmaswar_eng",
-		"type" : "event",
-		"eventDateTime" : "December 24, 2016 18:00:00",
-		"duration" : 2,
-		"Venue" : "Rashtra Seva Dal Campus, Sinhagad Road, Near Dandekar Bridge, Pune.",
-		"subtitle" : "On the eve of Manusmriti Dahan Din (Manusmriti Burning Day), ABHIVYAKTI, the women's wing of Lokayat, organises a play",
-		"img" : "img/event/atmaswar.jpg",
-		"content" : [
-					"The cultural program is based on the writings of progressive women from ancient times to the contemporary period. The program includes presentations from the writings of women saints including Muktabai, Janabai, Meerabai to Savitribai Phule and Lakshmibai Tilak to Mallika Amar Sheikha and Hira Bansode.",
-		         	"The program is a multi-faceted cultural program, and will include recitals, songs, bhajans and much more.", 
-				   	"Do join us for this fantastic program."
-			]
-	},
 	{
 		"title" : "All India Socialist Youth Conference",
 		"date" : "December 7, 2016",
 		"type" : "event",
-		"link" : "aisycon",
+		"link" : "news/aisycon",
 		"eventDateTime" : "January 20, 2017 09:00:00",
 		"duration" : 2,
 		"Venue" : "Rashtra Seva Dal Campus, Sinhagad Road, Near Dandekar Bridge, Pune.",
@@ -49,4 +32,3 @@
 						"The detailed program of this conference will be sent out to you over email in a few days, once we have finalised all the details. We are sending out this advance information about the conference so that you can make your reservations – there is still one and a half months to go for the conference, and if you make your reservations within the next few days, you should have no difficulty in getting a confirmed reservation."
 					]
 	}
-]
