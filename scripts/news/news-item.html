@@ -1,21 +1,34 @@
 <div class="container-fluid top-container clearfix">
+	
 	<div class="row">
-		<div class="col-md-6 col-md-offset-2 news-entry">
+		<div class="col-md-3 date-share">
+			<div class="updated-on">Updated on</div>
+			<hr class="date-share-seperator">
+			<div class="post-date" ng-bind="entry.date"></div>
+			<hr class="date-share-seperator">
+			<social-share></social-share>
+		</div> 
+		<div class="col-md-6 news-entry">
 			<div class="article-title" ng-bind="entry.title"></div>
 			<div class="article-subtitle" ng-bind="subtitle" ng-if="entry.subtitle"></div>
 			<div class="article-image"><img class="article-image-img" ng-src="{{entry.img}}"></div>
+			<div class="row event-info"  ng-if="event">
+				<div class="col-md-4">
+					<i class="fa fa-calendar" aria-hidden="true"></i>
+					<div ng-bind=""></div>
+				</div>
+				<div class="col-md-4">
+					<i class="fa fa-clock-o" aria-hidden="true"></i>
+				</div>
+				<div class="col-md-4">
+					<i class="fa fa-map-marker" aria-hidden="true"></i>
+				</div>
+			</div>
 			<p ng-repeat="p in entry.content">{{p}}</p>
 			<hr class="hr4">
-			<!-- TODO : Remove this when social share in place properly 			
-			<div class="article-facebook-share">
-				<div class="fb-share-button" ng-href="{{pageURL}}" data-layout="button_count"></div>
-			</div>  -->
-			<!-- <div class="social-share">
-				<a href='#'>
-					<i class="fa fa-facebook" aria-hidden="true"></i>
-				</a>
-			</div> -->
-				<social-share></social-share>
+				<div class="social-share">
+					<social-share></social-share>
+				</div>	
 			<hr class="hr4">
 		</div>	
 	</div>

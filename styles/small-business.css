@@ -124,7 +124,7 @@ body {
 
 .read-more {
     font-size: 33px;
-    font-family: 'Crete Round', serif;
+    font-family: 'Slabo 27px', serif;
     text-align : center;
 }
 
@@ -250,9 +250,9 @@ body > section {
 
 .article-title {
     color: #000000;
-    font-family: 'Crete Round', serif; 
+    font-family: 'Slabo 27px', serif;
     font-weight: 600;
-    font-size: 42px;
+    font-size: 32px;
     line-height: 1.4em;
     text-align: center;
     margin : 20px;
@@ -260,7 +260,7 @@ body > section {
 
 .article-subtitle {
     color: #000000;
-    font-family: 'Crete Round', serif; 
+    font-family: 'Slabo 27px', serif; 
     font-weight: 400;
     font-size: 22px;
     font-style: italic;
@@ -271,6 +271,7 @@ body > section {
 
 .article-image {
     margin : 20px 0px 20px 0px;
+
 }
 .article-image-img {
     max-width:100%;

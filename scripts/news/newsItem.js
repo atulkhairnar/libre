@@ -6,7 +6,7 @@ angular.module('lokytControllers')
 	    $http.get(url).success(
 	    	function(data) {
 	    		$scope.entry = data;
-
+	    		$scope.event = (data.type == "event") ? true : false; 
 	    	}
 	    ).error(function(data) {
 	    	console.log(data);

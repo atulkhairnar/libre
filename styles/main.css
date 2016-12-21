@@ -255,3 +255,23 @@ ul.unstyled {
 .social-icon {
   margin-right: 7px;
 }
+/****************************news article****************************/
+
+.date-share {
+  margin-top: 200px;
+  margin-left: 15px;
+  font-size: 16px;
+  color : #808080;
+}
+
+.date-share-seperator {
+  margin: 3px 0;
+}
+
+.updated-on {
+  font-size: 13px;
+}
+
+.event-info {
+  text-align: center;
+}
