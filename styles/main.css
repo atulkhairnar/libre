@@ -178,7 +178,7 @@ ul.unstyled {
   font-size: 16px;
 }
 
-.home-post-image, .prop-img {
+.home-post-image, .prop-img, .article-image-img {
   margin-bottom: 15px;
   width: 100%;
   display: block;
@@ -238,4 +238,9 @@ ul.unstyled {
 
 .join-container {
   background: url('/img/joinus.jpg') 0 0 repeat;
+}
+
+.news-entry {
+    font-family: "Antwerp Bold","Times New Roman",Times,serif;
+    font-size: 21px;
 }
