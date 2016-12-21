@@ -76,6 +76,6 @@ lokayat.config(function($routeProvider) {
         })
         .otherwise({ redirectTo: "/" });
         
-       
+           
 });
 

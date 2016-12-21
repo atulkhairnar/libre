@@ -11,10 +11,4 @@ angular.module('lokytControllers')
 	    ).error(function(data) {
 	    	console.log(data);
 	    });
-	}])
-	.directive('socialShare', function(thisLink) {
-		return {
-			restrict : 'AE',
-			templateUrl: 'social-share.html'
-		}
-	});
+	}]);

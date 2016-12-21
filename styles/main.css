@@ -244,3 +244,14 @@ ul.unstyled {
     font-family: "Antwerp Bold","Times New Roman",Times,serif;
     font-size: 21px;
 }
+
+
+/***************** Social Share Component********************/
+
+.social-share {
+  text-align: center;
+}
+
+.social-icon {
+  margin-right: 7px;
+}

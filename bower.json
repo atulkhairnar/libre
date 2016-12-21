@@ -1,0 +1,28 @@
+{
+  "name": "libre",
+  "version": "0.0.1",
+  "homepage": "https://github.com/atulkhairnar/libre",
+  "authors": [
+    "Atul K <atulnkhairnar@gmail.com>"
+  ],
+  "description": "\"libre is an open project for lokayat website. Visit lokayat.org.in\"",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "~1.5.0",
+    "angular-resource": "~1.5.0",
+    "angular-ui-router": "~0.2.15",
+    "angularjs": "~1.5.0",
+    "bootstrap": "~3.3.5",
+    "font-awesome": "~4.4.0"
+  },
+  "resolutions": {
+    "angular": "~1.5.0"
+  }
+}
