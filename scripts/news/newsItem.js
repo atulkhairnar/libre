@@ -6,6 +6,7 @@ angular.module('lokytControllers')
 	    $http.get(url).success(
 	    	function(data) {
 	    		$scope.entry = data;
+	    		$scope.venue = data.venue;
 	    		$scope.isEvent = (data.type == "event") ? true : false;
 	    		if($scope.isEvent)
 	    			$scope.event = new Date(data.eventDateTime);

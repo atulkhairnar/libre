@@ -288,4 +288,51 @@ ul.unstyled {
 
 .event-info {
   text-align: center;
+  font-family: 'Istok Web', sans-serif;
+}
+
+.event-day {
+  font-size: 14px;
+}
+.event-month {
+  margin-top: -15px;
+  font-size: 14px; 
+}
+
+.event-date, .event-hour {
+  font-size: 40px;
+  margin-top: -10px;
+}
+
+.event-hour {
+ display: inline-block;
+}
+.event-minute {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.event-am {
+  display: inline-block;;
+}
+
+.event-time-info {
+}
+
+.event-time-group {
+  margin-top: 14px;
+}
+
+.event-graphics {
+  background-color: #d32f2f;
+  padding-top: 15px;
+  color : #fff;
+}
+
+.event-venue {
+  font-size: 16px;
+}
+
+.event-graphics {
+  margin : 10px 0;
 }

@@ -1,15 +1,20 @@
-<div class="col-md-4">
-	<i class="fa fa-calendar" aria-hidden="true"></i>
-	<div class="event-month" ng-bind="event | date:'EEEE'"></div>
-	<div class="event-date" ng-bind="event.getDate()"></div>
-	<div class="event-month" ng-bind="event | date:'LLLL'"></div>
-</div>
-<div class="col-md-4">
-	<i class="fa fa-clock-o" aria-hidden="true"></i>
-	<span class="event-month" ng-bind="event | date:'hh'">:</span>
-	<span class="event-date" ng-bind="event | date:'mm'"></span>
-	<span class="event-month" ng-bind="event | date:'a'"></span>
-</div>
-<div class="col-md-4">
-	<i class="fa fa-map-marker" aria-hidden="true"></i>
+<div class="row event-graphics">
+	<div class="col-md-3 col-date">
+		<i class="fa fa-calendar" aria-hidden="true"></i>
+		<div class="event-day" ng-bind="event | date:'EEEE'"></div>
+		<div class="event-date" ng-bind="event.getDate()"></div>
+		<div class="event-month" ng-bind="event | date:'LLLL'"></div>
+	</div>
+	<div class="col-md-3 event-time-info">
+		<i class="fa fa-clock-o" aria-hidden="true"></i><br />
+		<div class="event-time-group">
+			<div class="event-hour" ng-bind="event | date:'hh'">:</div>
+			<div class="event-minute" ng-bind="event | date:'mm'"></div>
+			<div class="event-am" ng-bind="event | date:'a'"></div>
+		</div>
+	</div>
+	<div class="col-md-6">
+		<i class="fa fa-map-marker" aria-hidden="true"></i>
+		<div class="event-venue" ng-bind="venue"></div>
+	</div>
 </div>
