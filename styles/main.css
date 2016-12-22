@@ -13,6 +13,13 @@
 .clearfix:after {
   clear: both;
 }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
 .hide-text {
   font: 0/0 a;
   color: transparent;

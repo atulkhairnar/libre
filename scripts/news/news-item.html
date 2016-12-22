@@ -1,14 +1,14 @@
-<div class="container-fluid top-container clearfix">
+<div class="container top-container clearfix">
 	
 	<div class="row">
-		<div class="col-md-3 date-share">
+		<div class="col-md-2 date-share">
 			<div class="updated-on">Updated on</div>
 			<hr class="date-share-seperator">
 			<div class="post-date" ng-bind="entry.date"></div>
 			<hr class="date-share-seperator">
 			<social-share></social-share>
 		</div> 
-		<div class="col-md-6 news-entry">
+		<div class="col-md-7 news-entry">
 			<div class="article-title" ng-bind="entry.title"></div>
 			<div class="article-subtitle" ng-bind="subtitle" ng-if="entry.subtitle"></div>
 			<div class="article-image"><img class="article-image-img" ng-src="{{entry.img}}"></div>
