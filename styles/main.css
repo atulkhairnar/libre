@@ -20,6 +20,13 @@
   }
 }
 
+@media (min-width: 1300px) {
+  .container {
+    width: 1300px;
+  }
+}
+
+
 .hide-text {
   font: 0/0 a;
   color: transparent;
