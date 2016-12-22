@@ -13,17 +13,8 @@
 			<div class="article-title" ng-bind="entry.title"></div>
 			<div class="article-subtitle" ng-bind="subtitle" ng-if="entry.subtitle"></div>
 			<div class="article-image"><img class="article-image-img" ng-src="{{entry.img}}"></div>
-			<div class="row event-info"  ng-if="event">
-				<div class="col-md-4">
-					<i class="fa fa-calendar" aria-hidden="true"></i>
-					<div ng-bind=""></div>
-				</div>
-				<div class="col-md-4">
-					<i class="fa fa-clock-o" aria-hidden="true"></i>
-				</div>
-				<div class="col-md-4">
-					<i class="fa fa-map-marker" aria-hidden="true"></i>
-				</div>
+			<div class="row event-info"  ng-if="isEvent">
+				<event-info></event-info>
 			</div>
 			<p ng-repeat="p in entry.content">{{p}}</p>
 			<hr class="hr4">

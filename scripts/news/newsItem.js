@@ -6,9 +6,17 @@ angular.module('lokytControllers')
 	    $http.get(url).success(
 	    	function(data) {
 	    		$scope.entry = data;
-	    		$scope.event = (data.type == "event") ? true : false; 
+	    		$scope.isEvent = (data.type == "event") ? true : false;
+	    		if($scope.isEvent)
+	    			$scope.event = new Date(data.eventDateTime);
 	    	}
 	    ).error(function(data) {
 	    	console.log(data);
 	    });
-	}]);
+	}])
+	.directive('eventInfo', function() {
+  return {
+  	restrict: 'E',
+    templateUrl: 'scripts/news/event-info.html'
+  };
+});;
