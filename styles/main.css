@@ -347,3 +347,9 @@ ul.unstyled {
   transition-duration: .5s;
   transition-timing-function: linear;
 }
+
+/*********************header & footer******************/
+
+.arrow {
+  color : #FFF !important;
+}
