@@ -13,10 +13,10 @@
 			<div class="article-title" ng-bind="entry.title"></div>
 			<div class="article-subtitle" ng-bind="subtitle" ng-if="entry.subtitle"></div>
 			<div class="article-image"><img class="article-image-img" ng-src="{{entry.img}}"></div>
+			<p ng-repeat="p in entry.content">{{p}}</p>
 			<div class="row event-info"  ng-if="isEvent">
 				<event-info></event-info>
 			</div>
-			<p ng-repeat="p in entry.content">{{p}}</p>
 			<hr class="hr4">
 				<div class="social-share">
 					<social-share></social-share>

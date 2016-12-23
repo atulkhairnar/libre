@@ -288,6 +288,7 @@ ul.unstyled {
 
 .event-info {
   text-align: center;
+  vertical-align: middle;
   font-family: 'Istok Web', sans-serif;
 }
 
@@ -305,26 +306,30 @@ ul.unstyled {
 }
 
 .event-hour {
- display: inline-block;
+ display: inline;
 }
 .event-minute {
-  display: inline-block;
+  display: inline;
   font-size: 20px;
 }
 
 .event-am {
-  display: inline-block;;
+  display: inline;
 }
 
-.event-time-info {
+.event-time-info, .col-date, .col-venue {
+  vertical-align: middle;
+  margin-right: 5px;
+  background-color: #d32f2f;
+  padding: 10px 0;
 }
 
 .event-time-group {
-  margin-top: 14px;
+  vertical-align: middle;
 }
 
 .event-graphics {
-  background-color: #d32f2f;
+  display: flex;
   padding-top: 15px;
   color : #fff;
 }
@@ -335,4 +340,10 @@ ul.unstyled {
 
 .event-graphics {
   margin : 10px 0;
+}
+
+.event-group:hover {
+  background-color: #34495e;
+  transition-duration: .5s;
+  transition-timing-function: linear;
 }
