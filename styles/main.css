@@ -14,6 +14,8 @@
   clear: both;
 }
 
+@myRed : #d32f2f;
+
 @media (min-width: 1200px) {
   .container {
     width: 1200px;
@@ -218,7 +220,7 @@ ul.unstyled {
 }
 
 .participate-div {
-  background-color: #d32f2f;
+  background-color: @myRed;
   margin-top: 50px;
   padding: 40px 0;
 }
@@ -320,7 +322,7 @@ ul.unstyled {
 .event-time-info, .col-date, .col-venue {
   vertical-align: middle;
   margin-right: 5px;
-  background-color: #d32f2f;
+  background-color: myRed;
   padding: 10px 0;
 }
 
@@ -380,18 +382,27 @@ body {
 }
 
 .navbar .navbar-nav>li>a {
-    color: inherit;
+    color : white;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
-.navbar-nav>.active>a{
-    color: inherit;
+.navbar-nav>.active {
     border-bottom: 2px solid #FFF !important;
 }
 
 .navbar-nav> li:hover  {
-    color: #000 !important; 
+    color: #000 !important;
+    font-size: 20px;
+    background-color: inherit; 
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+  background-color: inherit;  
+}
+
+.nav > li > a:focus {
+  border-bottom: 2px solid #FFF !important;  
 }
 
 .navbar-nav> li:focus {
@@ -438,7 +449,7 @@ body {
 }
 
 .btn-material-red-700:not(.btn-link):not(.btn-flat) {
-    background-color: #d32f2f;
+    background-color: @myRed;
     color: rgba(255,255,255,.84);
 }
 
@@ -533,27 +544,6 @@ body {
     opacity: .9;
 }
 
-/* carousel*/
-h2{
-    margin: 0;     
-    color: #666;
-    padding-top: 90px;
-    font-size: 52px;
-    font-family: "trebuchet ms", sans-serif;    
-}
-.item{
-    background: #333;    
-    text-align: center;
-    height: 300px !important;
-}
-.carousel{
-    margin-top: 20px;
-}
-.bs-example{
-    margin: 20px;
-}
-/* Corousel End */
-
 .navbar-fixed-top .navbar-brand {
     top: 0;
     position: fixed;
@@ -595,7 +585,7 @@ body > section {
 
 .go-input {
     padding: 2px !important;
-    border: 2px solid #d32f2f !important;
+    border: 2px solid myRed !important;
     background: #fff;
     display: inline-block;
 }
