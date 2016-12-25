@@ -14,8 +14,6 @@
   clear: both;
 }
 
-@myRed : #d32f2f;
-
 @media (min-width: 1200px) {
   .container {
     width: 1200px;
@@ -220,7 +218,7 @@ ul.unstyled {
 }
 
 .participate-div {
-  background-color: @myRed;
+  background-color: #d32f2f;
   margin-top: 50px;
   padding: 40px 0;
 }
@@ -322,7 +320,7 @@ ul.unstyled {
 .event-time-info, .col-date, .col-venue {
   vertical-align: middle;
   margin-right: 5px;
-  background-color: myRed;
+  background-color: #d32f2f;
   padding: 10px 0;
 }
 
@@ -449,7 +447,7 @@ body {
 }
 
 .btn-material-red-700:not(.btn-link):not(.btn-flat) {
-    background-color: @myRed;
+    background-color: #d32f2f;
     color: rgba(255,255,255,.84);
 }
 
