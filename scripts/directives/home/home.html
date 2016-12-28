@@ -33,7 +33,9 @@
                     <i class="fa fa-2x fa-calendar" aria-hidden="true"></i>
                 </span>
                 <h4 class="prop-title">UPCOMING EVENT</h4>
-                <img class="prop-img" ng-src="{{ eventImg }}" alt="Description" />
+                <a ng-href="#/news/{{nextEvent.link}}">
+                    <img class="prop-img" ng-src="{{ nextEvent.img }}" alt="Description" />
+                </a>
             </div>
             <!-- EBooks propaganda -->
             <div class="prop-box">
@@ -41,7 +43,9 @@
                     <i class="fa fa-2x fa-book" aria-hidden="true"></i>
                 </span>
                 <h4 class="prop-title">DOWNLOAD E-BOOKS</h4>
-                <img class="prop-img" ng-src="{{ downloadBook }}" alt="Description" />
+                <a ng-href="#/publication">
+                    <img class="prop-img" ng-src="{{ downloadBook }}" alt="Description" />
+                </a>
             </div>
             <div class="participate-div">
                 <div class="participate-text-div"><a href="#/join">Participate</a></div>
@@ -49,15 +53,12 @@
             <div social-share></div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-4">
-            <iframe class="embed-responsive-item iframe-width-fixer" width="100%" src="https://www.youtube.com/embed/videoseries?list=PLS1Sn3wjPMbLWNeyaJDI97RIPgmU45sYn"  frameborder="0" allowfullscreen></iframe>                    
-        </div>
-        <div class="col-md-4">
-             <iframe class="embed-responsive-item iframe-width-fixer" width="100%" src="https://www.youtube.com/embed/videoseries?list=PLS1Sn3wjPMbLWNeyaJDI97RIPgmU45sYn" frameborder="2" allowfullscreen></iframe>           
-        </div>
-        <div class="col-md-4">
-            <iframe class="embed-responsive-item iframe-width-fixer" width="100%" src="https://www.youtube.com/embed/videoseries?list=PLS1Sn3wjPMbLWNeyaJDI97RIPgmU45sYn" frameborder="2" allowfullscreen></iframe>
+    <!-- video row -->
+    <div class="row video-row">
+        <div class="col-md-4" ng-repeat='video in videos | limitTo:3'>
+            <iframe class="embed-responsive-item iframe-width-fixer" width="100%" src="{{ video.url }}" frameborder="0" allowfullscreen></iframe>
+            <h5><strong>{{video.title}}</strong></h5>
+            <h5 class="video-desc">{{video.description}}</h5>                    
         </div>
     </div>         
 </div>

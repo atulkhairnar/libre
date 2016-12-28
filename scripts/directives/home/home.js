@@ -1,6 +1,7 @@
 angular.module('lokytControllers')
-	.controller('mainController', ['$scope', '$http', function($scope, $http) {
+	.controller('mainController', ['$scope', '$http', '$sce', function($scope, $http, $sce) {
 		var url = 'jsons/news.json';
+		var videoUrl = 'jsons/videos.json';
 		$scope.noUpcomingEvent = true;   // no upcoming events
 	    $http.get(url).success(
 	    	function(data) {
@@ -14,8 +15,21 @@ angular.module('lokytControllers')
 	    		// set noUpcomingEvent value 
 	    		if($scope.upcomingEvents.length) {	
 	    			$scope.noUpcomingEvent = false;
-	    			$scope.eventImg = $scope.upcomingEvents[0].img;
+	    			$scope.nextEvent = $scope.upcomingEvents[0];
 	    		}
+	    	}
+	    ).error(function(data) {
+	    	console.log(data);
+	    });
+
+	    // call video list api
+	    $http.get(videoUrl).success(
+	    	function(data) {
+	    		// interpolation is required for youtube urls
+	    		$scope.videos = data.map(function(e,i){ 
+	    			e.url = $sce.trustAsResourceUrl(e.url); 
+	    			return e;
+	    		});
 	    	}
 	    ).error(function(data) {
 	    	console.log(data);

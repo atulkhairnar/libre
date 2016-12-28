@@ -211,6 +211,16 @@ ul.unstyled {
   margin-top: 60px;
 }
 
+.video-row {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid gray;
+}
+
+.video-desc {
+  color: #333333;
+}
+
 .prop-title {
   text-align: left;
   border-bottom :  3px solid black; 
