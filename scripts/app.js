@@ -28,6 +28,11 @@ lokayat.config(function($routeProvider) {
             controller  : 'campaignPageCtrl',
             activeTab : 'campaigns'
         })
+        .when('/news', {
+            templateUrl : 'scripts/news/news.html',
+            controller  : 'news',
+            activeTab : ''
+        })
         .when('/news/:title', {
             templateUrl : 'scripts/news/news-item.html',
             controller  : 'newsItem',
