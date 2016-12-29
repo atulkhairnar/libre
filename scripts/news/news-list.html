@@ -1,12 +1,12 @@
-<div class="news-item-div" ng-repeat="item in items">
+<div class="news-item-div" ng-repeat="item in $ctrl.items">
 	<div class="row">
 		<div class="col-md-4">
-			<img class="news-item-img" ng-href="{{item.url}}">
+			<img class="news-item-img" ng-src='{{item.img}}' />
 		</div>
-		<div class="col-md-6">
+		<div class="col-md-8">
 			<div class="news-item-body">
-				<h3>{{item-title}}</h3>
-				<p>{{item-subtitle}}</p>
+				<h3><strong>{{item.title}}</strong></h3>
+				<p class="news-list-subtitle">{{item.subtitle}}</p>
 			</div>
 		</div>
 	</div>

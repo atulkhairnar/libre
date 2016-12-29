@@ -249,6 +249,10 @@ ul.unstyled {
 
 /*************** JOIN IN PAGE *********************/
 
+.news-container, .top-container {
+  margin-top: 90px;
+}
+
 .top-container {
   margin-top: 90px;
   padding-top: 30px;
@@ -363,6 +367,22 @@ ul.unstyled {
   transition-timing-function: linear;
 }
 
+/****************** news list **************************/
+
+.news-item-img {
+  width : 80%;
+  padding: 5px 0;
+}
+
+.news-item-div {
+  margin: 40px 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #777777;
+}
+
+.news-list-subtitle {
+  font-size: 17px;
+}
 /*********************header & footer******************/
 
 .arrow {
