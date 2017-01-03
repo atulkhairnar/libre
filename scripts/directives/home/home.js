@@ -1,6 +1,6 @@
 angular.module('lokytControllers')
 	.controller('mainController', ['$scope', '$http', '$sce', function($scope, $http, $sce) {
-		var url = 'jsons/news.json';
+		var url = 'jsons/home.json';
 		var videoUrl = 'jsons/videos.json';
 		$scope.noUpcomingEvent = true;   // no upcoming events
 	    $http.get(url).success(

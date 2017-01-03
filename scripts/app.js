@@ -9,7 +9,7 @@ var lokayat = angular.module('lokayat', [
 
 
 // configure our routes
-lokayat.config(function($routeProvider) {
+lokayat.config([ '$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
     $routeProvider
         // route for the home page
         .when('/', {
@@ -80,7 +80,5 @@ lokayat.config(function($routeProvider) {
             activeTab : ''
         })
         .otherwise({ redirectTo: "/" });
-        
-           
-});
+}]);
 

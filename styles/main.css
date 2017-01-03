@@ -92,6 +92,12 @@ body > section {
   padding: 50px 0;
 }
 
+.social-icons > span {
+  font-size: 40px;
+  margin: 30px 20px;
+}
+
+
 
 .btn-social {
   border: 0;
