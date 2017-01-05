@@ -406,10 +406,29 @@ ul.unstyled {
 }
 /*********************header & footer******************/
 
-.arrow {
+.arrow > li > a {
+  display: inline-block;
   color : #FFF !important;
+  margin-bottom: 5px;
 }
 
+.arrow > li > a:hover {
+  border-bottom: 1px solid white;
+}
+
+.quote {
+  position: absolute;
+  color: white;
+  margin-top: 290px;
+  left: 25%;
+  font-size: 50px;
+}
+
+.quote:hover {
+  border-bottom: 3px solid white;
+}
+
+.arrow
 /*!
  * Start Bootstrap - Small Business HTML Template (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
