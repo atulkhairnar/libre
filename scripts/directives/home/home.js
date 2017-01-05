@@ -21,7 +21,6 @@ angular.module('lokytControllers')
 	    ).error(function(data) {
 	    	console.log(data);
 	    });
-
 	    // call video list api
 	    $http.get(videoUrl).success(
 	    	function(data) {
@@ -36,4 +35,10 @@ angular.module('lokytControllers')
 	    });
 
 	    $scope.downloadBook = "img/book/nfaoe.jpg";
-	}]);
+	}])
+	.directive("socialIcon", function() {
+		return {
+			restrict : 'E',
+			templateUrl : 'scripts/directives/socialIcons.html'
+		}
+	});
