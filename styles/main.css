@@ -668,6 +668,12 @@ footer {
     }
 }
 
+@media(max-width:768px) {
+    .navbar-cover {
+        position: relative;
+    }
+}
+
 .news-panel {
   max-height: 800px; 
 }
