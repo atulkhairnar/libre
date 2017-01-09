@@ -1,5 +1,10 @@
 [
 
+  { "img" : "img/book/demonetisation.png",
+    "name" : "Demonetisation - yet another fraud on people !",
+    "download" : "./books/demonetisation.pdf",
+    "discription" : "Demonetisation, the classical plunder to the people of the country. This booklet tries to evaluate and make people think, whether it is really making the things, which it claims ? and if not, then why ?"  
+  },
   { "img" : "img/book/mulgamulgi.png",
     "name" : "मुलगा म्हणजे काय? मुलगी म्हणजे काय?",
     "download" : "./books/mulgamulgi.pdf",
