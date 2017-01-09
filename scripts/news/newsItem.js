@@ -25,6 +25,6 @@ angular.module('lokytControllers')
 	.directive("downloadList", function() {
 		return {
 			restrict : 'E',
-			template : '<a ng-href="#/news/{{post.download}}"><input class="btn btn-danger DownloadItemBtn" type="button" value="Download"></a>'
+			template : '<a ng-href="./books/{{entry.download}}" download><input class="btn btn-danger DownloadItemBtn" type="button" value="Download"></a>'
 		}
 	});
