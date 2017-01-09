@@ -217,6 +217,7 @@ ul.unstyled {
 .home-post-entry {
   background-color: #EDEDED;
   padding-top: 15px;
+  margin-top: 15px;
   font-family: 'Istok Web', sans-serif;
   font-size: 16px;
 }
@@ -293,7 +294,7 @@ ul.unstyled {
 .contact-form-div {
   background-color: rgba(25, 118, 210, .50);
   color: #fff;
-  
+  margin-bottom: 15px;
 }
 
 .join-container {
@@ -409,6 +410,7 @@ ul.unstyled {
 .news-item-img {
   width : 80%;
   padding: 5px 0;
+  margin-top: 18px;
 }
 
 .news-item-div {

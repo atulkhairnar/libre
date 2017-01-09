@@ -1,6 +1,6 @@
 function newsListController($scope, $http) {
 	var ctrl = this;
-	var url = 'jsons/news.json';
+	var url = 'jsons/home.json';
 	$http.get(url).success(
 	    	function(data) {
 	    		ctrl.items = data;
