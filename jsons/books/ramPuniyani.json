@@ -1,0 +1,30 @@
+[ 
+  { "img" : "./img/book/nocover.jpg",
+    "name" : "Nirdoshannaa Saja Nako (Marathi)",
+    "download" :"./books/Article-Ram-Puniyani-Nirdoshannaa-Saja-Nako-marathi-31aug15.pdf",
+    "discription" :"Article about victims of false cases."
+    },
+    { "img" : "./img/book/nocover.jpg",
+    "name" : "Islami Dahshatwad Paddyamagche Rajkaran (Marathi)",
+    "download" :"./books/Islami_Dahshatwad_Paddyamagche-Rajkaran.pdf",
+    "discription" :"Article about the politics behind terrorism"
+    },
+    { 
+      "img" : "./img/book/nocover.jpg",
+      "name" : "Killing a Rationalist",
+      "download" :"./books/Killing_a_Rationalist.pdf",
+      "discription" :"Article about the murders of rationalists like Dr. Dabholkar."
+    },
+    { 
+      "img" : "./img/book/nocover.jpg",
+      "name" : "Controlling Thoughts and Food Habits - Growing Intolerance (English)",
+      "download" :"./books/Puniyani_Food_Habits_Freedom_Eng.pdf",
+      "discription" :"Article about the politics of food habits - beef-ban, meat-ban etc." 
+    },
+    { 
+      "img" : "./img/book/nocover.jpg",
+      "name" : "Controlling Thoughts and Food Habits - Growing Intolerance (Hindi)",
+      "download" :"./books/Puniyani_Food_Habits_Freedom.pdf",
+      "discription" :"Article about the politics of food habits - beef-ban, meat-ban etc."
+    }
+]

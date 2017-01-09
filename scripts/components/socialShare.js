@@ -1,4 +1,4 @@
-function socialShareController($scope, $location) {
+	function socialShareController($scope, $location) {
 	var ctrl = this;
 	var url = $location.url();
 	var lokayatUrl = 'http%3A//lokayat.org.in/%23';

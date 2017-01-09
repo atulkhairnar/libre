@@ -11,11 +11,14 @@
 		</div> 
 		<div class="col-md-6 news-entry">
 			<div class="article-title" ng-bind="entry.title"></div>
-			<div class="article-subtitle" ng-bind="subtitle" ng-if="entry.subtitle"></div>
+			<div class="article-subtitle" ng-bind="entry.subtitle" ng-if="entry.subtitle"></div>
 			<div class="article-image"><img class="article-image-img" ng-src="{{entry.img}}"></div>
 			<p ng-repeat="p in entry.content">{{p}}</p>
 			<div class="row event-info"  ng-if="isEvent">
 				<event-info></event-info>
+			</div>
+			<div class="row download-div"  ng-if="isDownload">
+				<download-list class="downloadDir"></download-list>
 			</div>
 			<hr class="hr4">
 				<div class="social-share">

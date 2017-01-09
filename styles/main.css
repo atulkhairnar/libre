@@ -26,7 +26,6 @@
   }
 }
 
-
 .hide-text {
   font: 0/0 a;
   color: transparent;
@@ -182,9 +181,9 @@ body > section {
   display: block;
   font-weight: 400;
 }
-.row > div {
+/*.row > div {
   margin-bottom: 10px;
-}
+}*/
 ul.unstyled {
   list-style: none;
   padding: 0;
@@ -204,7 +203,11 @@ ul.unstyled {
   width: 100%; 
   display: block; 
   margin-bottom: 20px;
-  margin-top: 90px;
+  /*margin-top: 89px;*/
+}
+
+.page-container {
+  margin-top: 89px;
 }
 
 .home-post-date {
@@ -222,6 +225,9 @@ ul.unstyled {
   margin-bottom: 15px;
   width: 100%;
   display: block;
+  max-height: 500px;
+  height: auto;
+  margin: 0 auto;
 }
 
 .home-post-title {
@@ -271,11 +277,11 @@ ul.unstyled {
 /*************** JOIN IN PAGE *********************/
 
 .news-container, .top-container {
-  margin-top: 90px;
+ /* margin-top: 89px;*/
 }
 
 .top-container {
-  margin-top: 90px;
+  /*margin-top: 89px;*/
   padding-top: 30px;
 }
 
@@ -353,6 +359,10 @@ ul.unstyled {
   font-size: 20px;
 }
 
+.download-div {
+  margin-top: 20px;
+  text-align: center;
+}
 .event-am {
   display: inline;
 }
@@ -380,6 +390,12 @@ ul.unstyled {
 
 .event-graphics {
   margin : 10px 0;
+}
+
+.background-image {
+    background-image: url(./../img/lsy.jpg);
+    background-size: cover;
+    height: 492px;
 }
 
 .event-group:hover {
@@ -417,11 +433,16 @@ ul.unstyled {
 }
 
 .quote {
-  position: absolute;
   color: white;
-  margin-top: 290px;
-  left: 25%;
+  margin-top: 200px;
   font-size: 50px;
+  position: absolute; 
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 60%;
+  text-align: center;
 }
 
 .quote:hover {
@@ -454,10 +475,19 @@ body {
     bottom: 10px;
 }
 
+.book-container {
+  margin-top: 40px;
+}
+
 .navbar .navbar-nav>li>a {
     color : white;
     padding-top: 20px;
     padding-bottom: 10px;
+}
+
+.nav-tabs > li > a {
+  color : #d32f2f;
+  font-weight: bold;
 }
 
 .navbar-nav>.active {
@@ -686,11 +716,10 @@ body > section {
 }
 
 .article-subtitle {
-    color: #000000;
+    color: #6D5555;
     font-family: 'Slabo 27px', serif; 
     font-weight: 400;
-    font-size: 22px;
-    font-style: italic;
+    font-size: 20px;
     line-height: 1.4em;
     text-align: center;
     margin : 20px;

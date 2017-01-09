@@ -1,7 +1,14 @@
 [
 	{
+		"title" : "Lokayat Demonetisation Booklet Is Out",
+		"date" : "January 9, 2017",
+		"type" : "news",
+		"link" : "demonetisation",
+		"img" : "img/news/demonetisation.png",
+		"synopsis" : "Our demonetisation booklet has finally gone for printing - the english copy. It contains a lot of new material as compared to the draft prepared earlier, including an important section on the role of the USA: the latest material reveals that the Modi Government had entered into an agreement with the USA for this push towards a cashless society, and that big payment corporations - like Mastercard and Visa, are behind this."
+	},{
 		"title" : "All India Socialist Youth Conference",
-		"date" : "December 7, 2016",
+		"date" : "January 1, 2017",
 		"type" : "event",
 		"link" : "aisycon",
 		"eventDateTime" : "January 20, 2017 09:00:00",

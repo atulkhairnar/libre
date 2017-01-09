@@ -8,6 +8,7 @@ angular.module('lokytControllers')
 	    		$scope.entry = data;
 	    		$scope.venue = data.venue;
 	    		$scope.isEvent = (data.type == "event") ? true : false;
+	    		$scope.isDownload = (data.download != undefined) ? true : false;
 	    		if($scope.isEvent)
 	    			$scope.event = new Date(data.eventDateTime);
 	    	}
@@ -16,8 +17,14 @@ angular.module('lokytControllers')
 	    });
 	}])
 	.directive('eventInfo', function() {
-  return {
-  	restrict: 'E',
-    templateUrl: 'scripts/news/event-info.html'
-  };
-});;
+	  return {
+	  	restrict: 'E',
+	    templateUrl: 'scripts/news/event-info.html'
+	  };
+	})
+	.directive("downloadList", function() {
+		return {
+			restrict : 'E',
+			template : '<a ng-href="#/news/{{post.download}}"><input class="btn btn-danger DownloadItemBtn" type="button" value="Download"></a>'
+		}
+	});

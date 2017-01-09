@@ -1,0 +1,26 @@
+[ 
+    { 
+        "img" : "./img/book/shetkari.jpg",
+        "name" : "Shetkari Jatyat (Marathi)",
+        "download" :"./books/book-SB-shetkari-jatyaat.pdf",
+        "discription" :"A book exploring the economic and other causes of farmers suicides in India."
+    },
+    { 
+        "img" : "img/book/kokan.jpg",
+        "name" : "Kokancha Vikas ki Vinash (Marathi)",
+        "download" :"./books/book-Kokanacha_VIkas_kee_vinash_Unicode.pdf",
+        "discription" :"An eco-centric and people-centric analysis of the multiple power, mining, commercial and infrastructure projects that are coming up in the fertile, biodiverse and beautiful Kokan coastline"
+    },
+    { 
+        "img" : "./img/book/nocover.jpg",
+        "name" : "Khare Dahshatvadi Kon ? (Marathi)",
+        "download" :"./books/book-SB-khare-dahashatvadi-kon-Unicode.pdf",
+        "discription" :"A book on the causes of terrorism and how to uproot it from the world."
+    },
+    { 
+        "img" : "img/book/cuba.jpg",
+        "name" : "Cubacha Zunzar Kranti-Ladha (Marathi)",
+        "download" :"./books/book-SB-kubaachaa-jhunjhaar-krantiladhaa-unicode.pdf",
+        "discription" :"A concise history of he Cuban revolutionary struggle."
+    }
+]

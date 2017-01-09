@@ -1,0 +1,205 @@
+[
+
+  { "img" : "img/book/mulgamulgi.png",
+    "name" : "मुलगा म्हणजे काय? मुलगी म्हणजे काय?",
+    "download" : "./books/mulgamulgi.pdf",
+    "discription" : "समाजात जात, वंश, वर्ग यातील विषमतेप्रमाणे स्त्री-पुरुषांमधील विषमतासुद्धा पूर्णतः मानवनिर्मित आहे. जर ठरवल तर आपण अशा समाजाची निर्मिति करू शकतो, जिथे मुलगी असण म्हणजे कनिष्ठ, दुर्बल असं नसेल. तसेच मुलगा म्हणजे क्रूर, वर्चस्व गाजवणारा आणि हिंसक नसेल. हे पुस्तक सर्वांनी नक्की वाचले पाहिजे."  
+  },
+  
+  { "img" : "img/book/Fascism_Mar.png",
+    "name" : "देशावर फ़ासीवादाचे संकट..",
+    "download" : "./books/Fascism_Mar.pdf",
+    "discription" : "This book explains the historical, social and economic background of fascism and also shows in detail how India is heading towards its own version of fascism. A must read, to understand today's situation."  
+  },
+  
+  { "img" : "img/book/FascistAttack.png",
+    "name" : "Neoliberal fascist attack on education",
+    "download" : "./books/FascistAttack_eng.pdf",
+    "discription" : "Education is probably the most important component of nation and society building. This book exposes in detail the policies of the Indian ruling classes towards education - a policy of corporatisation and lately of saffronisation."  
+  },
+  
+  { "img" : "img/book/KonHote.png",
+    "name" : "कोण होते दाभोळकर, कलबुर्गी आणि पानसरे ?",
+    "download" : "./books/Kon_Dabholkar.pdf",
+    "discription" : "Dr Dabolkar, Com Pansare and Prof Kalburgi were murdered in broad daylight by right wing extremists. But why ? What were these people saying and doing that threatened the extremists so much ? Read this to find out."  
+  },
+  
+  { "img" : "img/book/RSSOlkha.png",
+    "name" : "राष्ट्रीय स्वयंसेवक संघाला ओळखा..",
+    "download" : "./books/RSSOlkha.pdf",
+    "discription" : "Know the RSS, we must know history of RSS, a so called, nationalistic organization."  
+  },
+  { "img" : "img/book/Fascism_Eng.png",
+    "name" : "Spectre of Fascism.",
+    "download" : "./books/Fascism_Eng.pdf",
+    "discription" : "This book explains the historical, social and economic background of fascism and also shows in detail how India is heading towards its own version of fascism. A must read, to understand today's situation."  
+  },
+  { "img" : "img/book/budget.bmp.jpg",
+    "name" : "Union Budget 2015-16: What is in it for the People?",
+    "download" : "./books/complete-book-union-budget-2015-16-v6-22may15.pdf",
+    "discription" : "This booklet is an anlysis of the Union budget 2015, from the point of view of the common people."  
+  },
+  { "img" : "img/book/BudgetMarathiCover.jpg",
+    "name" : "Union Budget 2015-16 : Tyat lokansathi kay ahe ? Marathi",
+    "download" : "./books/book-union-budget-2015-16-marathi-Ied-aug15.pdf",
+    "discription" : "This booklet is an anlysis of the Union budget 2015, from the point of view of the common people."
+  },
+  { "img" : "img/book/govtpoor.bmp.jpg",
+    "name" : "Is the Government Really Poor?",
+    "download" : "./books/is_the_government_really_poor.pdf",
+    "epub" : "./books/IsTheGovLokayat.epub",
+    "discription" : "A detailed exposure of how the government is cutting expenditure on the public, especially the poor and transferring them to the rich."  
+  },
+  { "img" : "img/book/gulamikade.jpg",
+    "name" : "Bharat Punha Ekada Gulamikade",
+    "download" : "./books/gulamikade.pdf",
+    "discription" : "In the name of globalization, foreign brigands are being invited back into the country. In the 18th Century they had to use force. This time they are being welcomed with a red carpet. This booklet is an overview of the post-liberalisation policies and how they are instrumental in selling out the country again."
+  }, 
+  { "img" : "img/book/indiabec.bmp.jpg",
+    "name" : "India Becoming a Colony Again",
+    "download" : "./books/india_becoming.pdf",
+    "discription" : "In the name of globalization, foreign brigands are being invited back into the country. In the 18th Century they had to use force. This time they are being welcomed with a red carpet. This booklet is an overview of the post-liberalisation policies and how they are instrumental in selling out the country again."
+  },
+  { "img" : "img/book/bekari.bmp.jpg",
+    "name" : "Tumhi Bekar Ka?",
+    "download" : "./books/bekari.pdf",
+    "discription" : "Many arguments are given to justify unemployment- increasing population, `unwillingness' of the people to work or even affirmative action. However, if full employment is possible in times of war, why cannot we have it always ? This booklet explores the social reasons behind unemployment."
+  },
+  { "img" : "img/book/licmar.bmp.jpg",
+    "name" : "Public sector insuarence on sale!",
+    "download" : "./books/lic_eng.pdf",
+    "epub" : "./books/LICEng.epub",
+    "discription" : "The government pushed through a bill in the Indian Parliament to allow FDI upto 49% in the insurance sector. The government is claiming that it will lead to increased insurance penetration, and will lead to greater mobilisation of domestic savings for investment in the infrastructure sector. Will FDI indeed benefit the Indian economy?"
+  },
+  { "img" : "img/book/licmar.bmp.jpg",
+    "name" : "सार्वजनिक विमा क्षेत्र लिलावात!",
+    "download" : "./books/lic_marathi.pdf",
+    "discription" : "The government pushed through a bill in the Indian Parliament to allow FDI upto 49% in the insurance sector. The government is claiming that it will lead to increased insurance penetration, and will lead to greater mobilisation of domestic savings for investment in the infrastructure sector. Will FDI indeed benefit the Indian economy?"
+  },
+  { "img" : "img/book/FDIretailEng.jpg",
+    "name" : "Fight FDI in Retail",
+    "download" : "./books/fdi_eng_3ed.pdf",
+    "epub" : "./books/FDI_ENG.epub",
+    "discription" : "FDI in retail sector will bring disastrous changes into country. This book talks about effects of multinationals such as walmart on local economy."
+  },
+  { "img" : "img/book/FDIretailMarathiCover.jpg",
+    "name" : "Ladha walmartshi !",
+    "download" : "./books/fdi_marathi.pdf",
+    "discription" : "FDI in retail sector will bring disastrous changes into country. This book talks about effects of multinationals such as walmart on local economy."
+  },
+  { "img" : "img/book/FDIretailHindiCover.jpg",
+    "name" : "Walmart Bhagao Khudra kshetra Bachao! - Hindi",
+    "download" : "./books/fdi_hindi.pdf",
+    "discription" : "FDI in retail sector will bring disastrous changes into country. This book talks about effects of multinationals such as walmart on local economy."
+  },
+  
+  { "img" : "img/book/Tarun.jpg",     
+    "name" : "Tarunanno Vichar Karal Tar",
+    "download" : "./books/tarunannon.pdf",
+    "discription" : "A classic booklet written by Russian revolutionary Pyotr Kropotkin, appealing to the youth of society to become aware of the various social problems prevailing in the society and devote their time to find a solution for the same."
+  },
+  { "img" : "img/book/koli.bmp.jpg",
+    "name" : "Koli ani Mashi",
+    "download" : "./books/koli_ani_mashi.pdf",
+    "discription" : "Koli ani Mashi is a Marathi translation of a famous pamphlet 'The Spider & The Fly' by Liebknecht, written for German workers. Using a simple metaphor, the logic of the unjust system is explained."
+  },
+  { "img" : "img/book/irade.bmp.jpg",
+    "name" : "Irade kar Buland",
+    "download" : "./books/irade.pdf",
+    "discription" : "It comprises of nine articles on how women are stereotyped in society.It questions the unjust practices conducted under the name of traditions, rituals and also critiques the role of media in promoting women as a commodity."
+  },
+  { "img" : "img/book/iradeeng.bmp.jpg",
+    "name" : "Let's Rise From the Shadows",
+    "download" : "./books/iradeEnglish.pdf",
+    "epub" : "./books/RiseFromShadowsLokayat.epub",
+    "discription" : "It comprises of nine articles on how women are stereotyped in society.It questions the unjust practices conducted under the name of traditions, rituals and also critiques the role of media in promoting women as a commodity."
+  },
+  
+  { "img" : "img/book/shikshan.bmp.jpg",
+    "name" : "Shikshanachi Rakhrangoli",
+    "download" : "./books/shikshan.pdf",
+    "discription" : "It reveals the policies that are being implemented in Education before and after Independence and how the education system is being sold to corporates from India and abroad while the majority of Indians have no access to free and good quality education."
+  },
+  
+  { "img" : "img/book/bhagatsi.bmp.jpg",
+    "name" : " Shahid Bhagatsinghache Tarunanna Aavaahan",
+    "download" : "./books/bhagat.pdf",
+    "discription" : "We remember Bhagat Singh only as a patriot and a martyr. But do we know what ideals he gave his life for ? This collection of Bhagat Singh's original writings reveals his ideas and opinions."
+  },
+  { "img" : "img/book/nastik.bmp.jpg",
+    "name" : "Mee Nastik Ka Aahe",
+    "download" : "./books/nastik.pdf",
+    "discription" : "Bhagat Singh was an Atheist, not out of arrogance but because he understood the workings of the world, life and suffering. In this great essay he explains the rational and human approach that led him to atheism."
+  },
+  { "img" : "img/book/vivek.bmp.jpg",
+    "name" : "vivekvadi, vidnyanvadi, samajwadi .. Vivekanand",
+    "download" : "./books/vivekanand.pdf",
+    "discription" : "This book brings out Swami Vivekanand as true human being, and not the person who worked for religion. Dr. Dattaprasad Dabholkar have given this excellent article."
+  },
+  { "img" : "img/book/ShivajiE.jpg",
+    "name" : "Who was Shivaji ?",
+    "download" : "./books/who_was_shivaji.pdf",
+    "discription" : "English translation of Marathi book, Who was shivaji? by Com. Govind Pansare. "
+  },
+  { "img" : "img/book/ShivajiH.jpg",
+    "name" : "Shivaji Kaun Thay ?",
+    "download" : "./books/Shivaji_Kaun_Thay.pdf",
+    "discription" : "Hindi translation of Marathi book, Who was shivaji? by Com. Govind Pansare. "
+  },
+  { "img" : "img/book/dewul.bmp.jpg",
+    "name" : "Devlancha Dharma- Dharmanchi Devale",
+    "discription" : "This booklet by Prabodhankar Thakarey is a scathing critique of temples and other institutions of organised Brahminical religion, which are used for exploitation of the common people, in the name of faith.",
+    "download" : "./books/devul.pdf"
+  },
+  { "img" : "img/book/ganisang.bmp.jpg",
+    "name" : "Gaani Sangharshachi Revolutionary Songs",
+    "download" : "./books/uth_mansa2ed.pdf",
+    "discription" : "Songs inspired by various peoples' movements around the country. These songs keep giving us inspiration and energy even today."
+  },
+  { "img" : "img/book/globalwa.bmp.jpg",
+    "name" : "The Crisis of Global Warming",
+    "download" : "./books/global_warming.pdf",
+    "discription" : "Nature has declared Enough is enough. Unless we move fast to rectify the damage done to nature, irreversible processes will be set in action which will wipe out human civilisation."
+  },
+  { "img" : "img/book/anvikved.bmp.jpg",
+    "name" : "Nuclear Madness",
+    "download" : "./books/nuke_small_marathi.pdf",
+    "discription" : "It exposes the real reason behind the Indo-US Nuclear Deal and how Nuclear Energy is not at all cheap safe and clean. It also explains how India can fulfill it's energy needs without going nuclear."
+  },
+  { "img" : "img/book/nuclear.jpg",
+    "name" : "Nuclear Madness",
+    "download" : "./books/nuke_small_english_wRefs.pdf",
+    "discription" : "It exposes the real reason behind the Indo-US Nuclear Deal and how Nuclear Energy is not at all cheap safe and clean. It also explains how India can fulfill it's energy needs without going nuclear."
+  },
+  { "img" : "img/book/resist.bmp.jpg",
+    "name" : "Resist the Silent Emergency",
+    "download" : "./books/silent_emergency.pdf",
+    "discription" : "It describes the struggle carried out by activists like Dr.Binayak Sen, Irom Sharmila for preserving human rights against the unjust draconian laws implemented in the interests of the corporates."
+  },
+  { "img" : "img/book/jha.bmp.jpg", 
+    "name" : "Jaganyachya Hakkache Andolan",
+    "download" : "./books/jha.pdf",
+    "discription" : "Jaganyachya Hakkache Andolan (Movement for right to dignified life) is a manifesto of a statewide movement undertaken by many progressive groups and parties of Maharashtra"
+  },
+  { "img" : "img/book/coke.bmp.jpg",
+    "name" : "Yeh Dil Mange Maut (English)",
+    "download" : "./books/coke_pepsi.pdf",
+    "discription" : "Through advertisements featuring the country's most popular film  stars and cricketers Coke and Pepsi have so mesmerised the Indian youth that today, thirst has become synonymous with these cold drinks. But these cold-drinks are not only hazardous to health but also to the environment."
+  },
+
+  { "img" : "img/book/cokemar.bmp.jpg",
+    "name" : "Yeh Dil Mange Maut",
+    "download" : "./books/coke_marathi.pdf",
+    "discription" : "Through advertisements featuring the country's most popular film  stars and cricketers Coke and Pepsi have so mesmerised the Indian youth that today, thirst has become synonymous with these cold drinks. But these cold-drinks are not only hazardous to health but also to the environment."
+  },
+  { "img" : "img/book/palestin.bmp.jpg",
+    "name" : "Israel-Palestine Conflict- A Primer",
+    "download" : "./books/palestine.pdf",
+    "discription" : "It exposes Israeli terror backed by U.S.A against the Palestinians rendering the Palestinians refugees in their own country and also highlights the heroic struggle carried by Palestinians."
+  },
+  { "img" : "img/book/hemahit.jpg",
+    "name" : "हे मला माहित हवं !",
+    "download" : "./books/booklet-he-mala-mahit-hava-11-oct-15.pdf",
+    "discription" : "अनेक स्त्रियांना मासिक पालीमागच विज्ञान माहिती नसत, म्हणूनच या विषयाची एका स्त्रीला आणि वयात येणाऱ्या मुलीला शास्त्रीय माहिती मिळायला हवी, याबद्दल अंधश्रद्धाळू कल्पना गळून पाडाव्यात या आशेने आपल्या माहितीसाठी हि पुस्तिका प्रकाशित करत आहोत . "
+  }
+]

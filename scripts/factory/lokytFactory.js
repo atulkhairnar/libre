@@ -5,7 +5,7 @@ lFactory.factory('books', function($http){
       list: function (callback){
         $http({
           method: 'GET',
-          url: 'jsons/books.json',
+          url: 'jsons/books/books.json',
           cache: true
         }).success(callback);
       }
@@ -17,7 +17,7 @@ lFactory.factory('bigBooks', function($http){
       list: function (callback){
         $http({
           method: 'GET',
-          url: 'jsons/bigBooks.json',
+          url: 'jsons/books/bigBooks.json',
           cache: true
         }).success(callback);
       }
