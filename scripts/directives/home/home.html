@@ -21,7 +21,9 @@
                         <h3 class="home-post-title" ng-bind="post.title"></h3>
                     </a>
                     <img class="home-post-image" ng-src="{{post.img}}" alt="Description" />
-                    <p class="home-post-content" ng-bind="post.synopsis"></p>
+                    <div class="home-post-content-div">
+                        <p class="home-post-content" ng-bind="post.synopsis"></p>
+                    </div>
                     <a ng-href="#/news/{{post.link}}"><input class="btn btn-danger homePostBtn" type="button" value="Read More"></a>
                 </div>
             </div>           

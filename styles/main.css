@@ -222,6 +222,10 @@ ul.unstyled {
   font-size: 16px;
 }
 
+.home-post-content-div {
+  margin-top: 10px;
+}
+
 .home-post-image, .prop-img, .article-image-img {
   margin-bottom: 15px;
   width: 100%;
