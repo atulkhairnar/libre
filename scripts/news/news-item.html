@@ -12,7 +12,12 @@
 		<div class="col-md-6 news-entry">
 			<div class="article-title" ng-bind="entry.title"></div>
 			<div class="article-subtitle" ng-bind="entry.subtitle" ng-if="entry.subtitle"></div>
-			<div class="article-image"><img class="article-image-img" ng-src="{{entry.img}}"></div>
+			<div ng-if="entry.type != 'video'" class="article-image">
+				<img class="article-image-img" ng-src="{{entry.img}}">
+			</div>
+			<div ng-if="entry.type == 'video'" height="100%" class="postVidDiv">
+                <iframe  class="embed-responsive-item news-video" width="100%" src="{{video}}" frameborder="0" allowfullscreen></iframe>
+            </div>
 			<p ng-repeat="p in entry.content">{{p}}</p>
 			<div class="row event-info"  ng-if="isEvent">
 				<event-info></event-info>

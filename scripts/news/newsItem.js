@@ -1,10 +1,12 @@
 angular.module('lokytControllers')
-	.controller('newsItem', ['$scope', '$routeParams', '$http',  function($scope, $routeParams, $http) {
+	.controller('newsItem', ['$scope', '$routeParams', '$sce', '$http',  function($scope, $routeParams, $sce, $http) {
 		$scope.routeParams = $routeParams.title;
     	var url = 'jsons/news/' + $scope.routeParams + '.json';
 		
 	    $http.get(url).success(
 	    	function(data) {
+	    		$scope.video = $sce.trustAsResourceUrl(data.video);
+
 	    		$scope.entry = data;
 	    		$scope.venue = data.venue;
 	    		$scope.isEvent = (data.type == "event") ? true : false;

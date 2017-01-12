@@ -13,7 +13,7 @@ lokayat.config([ '$routeProvider', '$locationProvider', function($routeProvider,
     $routeProvider
         // route for the home page
         .when('/', {
-            templateUrl : 'scripts/directives/home/home.html',
+            templateUrl : 'scripts/home/home.html',
             controller  : 'mainController',
             activeTab : 'home'
         })

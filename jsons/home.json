@@ -1,5 +1,12 @@
 [
 	{
+		"title" : "Video : Richa Singh talk on सावित्रीबाई फुले का सपना और समाज परिवर्तन की दिशा",
+		"date" : "January 11, 2017",
+		"type" : "video",
+		"link" : "richaTalk",
+		"video" : "https://www.youtube.com/embed/Ow2i2Jq_uzg",
+		"synopsis" : "Listen to this intrepid activist and student leader, an M.Phil Gold Medallist, founder of Stri Mukti Sangathana in 2008, who defied the patriarchal pastures of the Hindi belt and Hindutva wave sweeping through the country to stand as an independent candidate for the Presidentship of the Allahabad Students Union." 
+	},{
 		"title" : "Lokayat Demonetisation Booklet Is Out",
 		"date" : "January 9, 2017",
 		"type" : "news",
@@ -11,7 +18,7 @@
 		"date" : "January 1, 2017",
 		"type" : "event",
 		"link" : "aisycon",
-		"eventDateTime" : "January 20, 2017 09:00:00",
+		"eventDateTime" : "January 21, 2017 09:00:00",
 		"img" : "img/event/sycon1.png",
 		"synopsis" : "In continuation of our efforts to build unity of democratic socialists across the country as a step towards building a powerful mass movement to fight fascism and its twin, the globalisation economic policies, \"We the Socialist Institutions\" has decided to host an All-India Socialist Youth Conference in Pune on January 21-22, 2016."
 	},
