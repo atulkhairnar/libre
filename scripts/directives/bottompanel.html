@@ -62,9 +62,10 @@
                 <br>
                 <abbr title="Phone">P:</abbr>9422319129</address>
             <h4>Newsletter</h4>
-            <form role="form" action="newsletter.php" method="post">
+            <form role="form" action="./php/newsletter.php" method="post">
                 <div class="input-group">
-                    <input type="text" name="newsletterAdd" class="form-control go-input" autocomplete="off" placeholder="Enter your email"/>
+                    <input type="text" name="newsletterAdd" ng-controller="newsLetterCtrl
+                    " ng-model="newsletter" class="form-control go-input" autocomplete="off" placeholder="Enter your email"/>
                     <input type="Submit" name="emailSubmit" class="btn btn-material-red-700 btn-sm" value="Go!"/>
                     <!-- <span class="input-group-btn go-btn">
                         <a href="javascript:void(0)" class="btn btn-material-red-700 btn-sm">Go!</a>
