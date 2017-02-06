@@ -1,5 +1,26 @@
 [
 	{
+		"title" : "Preliminary Statement on Budget",
+		"date" : "February 2, 2017",
+		"type" : "News",
+		"link" : "budget2017",
+		"img"  : "img/news/budget2017.jpg",
+		"synopsis" :  "The PM and many leading intellectuals have praised the budget as a pro-growth budget, a pro-poor budget and a pro-farmer budget. The reality is exactly the opposite of all these epithets."
+	},{
+		"title" : "Lokayat is contesting its first Pune Municipal Corporation elections directly.",
+		"date" : "February 2, 2017",
+		"type" : "News",
+		"link" : "pmc_elections",
+		"img"  : "img/news/pmc_eng.jpg",
+		"synopsis" :  "Lokayat is contesting its first elections directly. We are putting up four candidates, for the Pune Municipal Corporation Elections. We are contesting this elections on behalf of Socialist Party (India), you must be aware that we are affiliated to SPI. All four candidates are committed Lokayat activists. We invite all of you interested in this new venture by Lokayat to financially contribute to our election campaign. You can even join the campaigns."
+	},{
+		"title" : "Lokayat Demetisation Marathi and Hindi booklets are out",
+		"date" : "January 26, 2017",
+		"type" : "News",
+		"link" : "demonetisationHindi",
+		"img"  : "img/book/lokayat_notebandi_hindi.jpg",
+		"synopsis" :  "Lokayat and Janta Trust publishes Hindi and Marathi version of demonetisation booklet. It contains an important section on the role of the USA: the latest material reveals that the Modi Government had entered into an agreement with the USA for this push towards a cashless society, and that big payment corporations - like Mastercard and Visa, are behind this."
+	},{
 		"title" : "Video : Richa Singh talk on सावित्रीबाई फुले का सपना और समाज परिवर्तन की दिशा",
 		"date" : "January 11, 2017",
 		"type" : "video",

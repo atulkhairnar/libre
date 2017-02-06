@@ -24,6 +24,8 @@ angular.module('lokytControllers')
 	    ).error(function(data) {
 	    	console.log(data);
 	    });
+
+
 	    // call video list api
 	    $http.get(videoUrl).success(
 	    	function(data) {
@@ -38,10 +40,26 @@ angular.module('lokytControllers')
 	    });
 
 	    $scope.downloadBook = "img/book/nfaoe.jpg";
-	}])
-	.directive("socialIcon", function() {
-		return {
-			restrict : 'E',
-			templateUrl : 'scripts/directives/socialIcons.html'
-		}
+}])
+.directive("socialIcon", function() {
+	return {
+		restrict : 'E',
+		templateUrl : 'scripts/directives/socialIcons.html'
+	}
+})
+/* This directive will add classes to img tag according to the diamensions of the image*/ 
+.directive('imageMode', function() {
+  function link(scope, element, attrs) {
+  	element.bind('load', function() {
+  		var diamention = $(element[0]).width()/$(element[0]).height();
+	  	if(diamention > 1) {
+	  		element.addClass("landscape");
+	  	} else {
+	  		element.addClass("potrait");
+	  	}
 	});
+  };
+  return {
+    link: link
+  };
+});

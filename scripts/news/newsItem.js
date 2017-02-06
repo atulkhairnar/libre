@@ -6,8 +6,12 @@ angular.module('lokytControllers')
 	    $http.get(url).success(
 	    	function(data) {
 	    		$scope.video = $sce.trustAsResourceUrl(data.video);
-
+	    		$scope.postContent = "";
 	    		$scope.entry = data;
+	    		data.content.forEach(function(item, index) {
+	    			$scope.postContent += "<p>" +  item + "</p>";
+	    		});
+	    		$scope.postContent = $sce.trustAsHtml($scope.postContent);
 	    		$scope.venue = data.venue;
 	    		$scope.isEvent = (data.type == "event") ? true : false;
 	    		$scope.isDownload = (data.download != undefined) ? true : false;
@@ -27,6 +31,6 @@ angular.module('lokytControllers')
 	.directive("downloadList", function() {
 		return {
 			restrict : 'E',
-			template : '<a ng-href="./books/{{entry.download}}" download><input class="btn btn-danger DownloadItemBtn" type="button" value="Download"></a>'
+			template : '<a ng-href="{{entry.btnValue}}" target="_blank" download><input class="btn btn-danger DownloadItemBtn" type="button" value="{{entry.btnText}}"></a>'
 		}
 	});

@@ -59,7 +59,7 @@ body {
   color : #000;
 
   /*background: #efefef;*/
-  font-family: 'Istok Web', sans-serif;
+  font-family: 'Ek Mukta', sans-serif;
   font-weight: 300;
 }
 
@@ -226,7 +226,8 @@ ul.unstyled {
   background-color: #EDEDED;
   padding-top: 15px;
   margin-top: 15px;
-  font-family: 'Istok Web', sans-serif;
+  /*font-family: 'Ek Mukta', sans-serif;*/
+  font-family: 'Ek Mukta', sans-serif;
   font-size: 16px;
 }
 
@@ -238,14 +239,20 @@ ul.unstyled {
   margin-bottom: 15px;
   width: 100%;
   display: block;
-  max-height: 500px;
+  /*max-height: 500px;*/
   height: auto;
   margin: 0 auto;
+}
+
+.potrait {
+  width: 50%;
+  margin: 0 auto; 
 }
 
 .home-post-title {
   color : #2e177a;
 }
+
 
 .prop-box {
   margin-top: 60px;
@@ -314,7 +321,7 @@ ul.unstyled {
 }
 
 .news-entry {
-    font-family: "Antwerp Bold","Times New Roman",Times,serif;
+    /*font-family: "Antwerp Bold","Times New Roman",Times,serif;*/
     font-size: 21px;
 }
 
@@ -329,6 +336,14 @@ ul.unstyled {
   margin-right: 7px;
 }
 /****************************news article****************************/
+
+
+.author {
+  position: relative;
+  margin-top: -15px;
+  font-size: 21px;
+  color : #808080;
+}
 
 .date-share {
   margin-top: 200px;
@@ -348,7 +363,7 @@ ul.unstyled {
 .event-info {
   text-align: center;
   vertical-align: middle;
-  font-family: 'Istok Web', sans-serif;
+  font-family: 'Ek Mukta', sans-serif;
 }
 
 .event-day {
@@ -432,7 +447,7 @@ ul.unstyled {
 }
 
 .news-list-subtitle {
-  font-size: 17px;  
+  font-size: 18px;  
 }
 /*********************header & footer******************/
 
@@ -484,11 +499,6 @@ body {
     background-color: #1976d2;
 }
 
-.a-book-download {
-    position: absolute;
-    bottom: 10px;
-}
-
 .book-container {
   margin-top: 40px;
 }
@@ -537,26 +547,24 @@ body {
 
 .book-synopsis {
     display: inline-block;
-    max-width: 303px;
-    max-height: 172px;
     float: left;
     text-overflow: ellipsis;
 }
 
 .p-book-synopsis {
     overflow: hidden;
-    text-overflow: ellipsis;
-    height: 120px;
-    -webkit-line-clamp: 6;
-    -webkit-box-orient: vertical;
-    max-width: 303px;
-    display: block;
-    display: -webkit-box;
-    overflow: hidden;
+    text-overflow: "…" "…";
+    max-height: 150px;
+}
+
+.p-book-synopsis > p {
+    text-overflow: clip ellipsis;
+    text-overflow: "…" "…";
+    max-height: 150px;
 }
 
 .book-image {
-    width: 40%;
+    width: 30%;
     float: left;
 } 
 
@@ -607,7 +615,7 @@ body {
 
 .sug-title a, .read-more {
     color: #000000;
-    font-family: "Antwerp Bold","Times New Roman",Times,serif;
+    /*font-family: "Antwerp Bold","Times New Roman",Times,serif;*/
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -616,7 +624,7 @@ body {
 
 .read-more {
     font-size: 33px;
-    font-family: 'Slabo 27px', serif;
+    /*font-family: 'Slabo 27px', serif;*/
     text-align : center;
 }
 
@@ -635,7 +643,7 @@ body {
 }
 
 .book-panel {
-    width: 95%;
+    /*width: 95%;*/
     display:block;
     background-color: #FFF;
     margin: 5px;
@@ -648,10 +656,23 @@ body {
 
 
 .book-disc {
-    width: 60%;
+    width: 70%;
+    position: relative;
     float: left;
-    font-size: 16px;
+    font-size: 17px;
+    height: 240px;
 }
+
+.book-download {
+    position: absolute;
+    bottom: 3px;
+    left: 0px;
+}
+
+.a-book-download {
+    
+}
+
 .navbar-cover {
     top: 0;
     width: 100%;
@@ -727,7 +748,7 @@ body > section {
 
 .article-title {
     color: #000000;
-    font-family: 'Slabo 27px', serif;
+    /*font-family: 'Slabo 27px', serif;*/
     font-weight: 600;
     font-size: 32px;
     line-height: 1.4em;
@@ -737,12 +758,18 @@ body > section {
 
 .article-subtitle {
     color: #6D5555;
-    font-family: 'Slabo 27px', serif; 
+    /*font-family: 'Slabo 27px', serif;*/
     font-weight: 400;
     font-size: 20px;
     line-height: 1.4em;
     text-align: center;
     margin : 20px;
+}
+
+.spi-image {
+    width: 50%;
+    margin: 0 auto;
+    margin-top : 30px;
 }
 
 .article-image {

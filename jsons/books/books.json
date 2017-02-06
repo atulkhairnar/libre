@@ -1,6 +1,15 @@
 [
 
-  { "img" : "img/book/demonetisation.png",
+  { "img" : "img/book/lokayat_notebandi_hindi.jpg",
+    "name" : "नोटबंदी: क्या खोया? क्या पाया?",
+    "download" : "./books/lokayat_notebandi_hindi.pdf",
+    "discription" : "मोदी सरकार का दावा है कि नोटबंदी से जाली नोटों की छपाई और आतंकवाद की फ़ंडिंग पर रोक लगेगी, और साथ ही काले धन पर लगाम लगेगी. लेकिन काले धन पर रोक लगाने के लिए जरुरी है कि काले धन के पैदा होने पर रोक लगाई जाए - लेकिन सरकार इस बारे में कोई कदम नहीं उठा रही है..."  
+  },
+  { "img" : "img/book/lokayat_notebandi_marathi.jpg",
+    "name" : "नोटाबंदी: काय कमावले? काय गमावले?",
+    "download" : "./books/lokayat_notebandi_marathi.pdf",
+    "discription" : "मोदी सरकार दावा करीत आहे की नोटाबंदीमुळे बनावट नोटांवर व त्यापासून दहशतवादाला पुरवल्या जाणार्‍या पैश्यांवर जरब बसेल आणि काळ्या पैशाला लगाम लागेल. पण काळ्या पैशाला चाप लावण्यासाठी काळ्या प्राप्तीच्या निर्मितीच्या स्त्रोतांवर आघात करणे गरजेचे आहे - पण सरकार मात्र त्याबद्दल काहीच करत नाहीये..."  
+  },{ "img" : "img/book/demonetisation.png",
     "name" : "Demonetisation - yet another fraud on people !",
     "download" : "./books/demonetisation.pdf",
     "discription" : "Demonetisation, the classical plunder to the people of the country. This booklet tries to evaluate and make people think, whether it is really making the things, which it claims ? and if not, then why ?"  
@@ -32,7 +41,7 @@
   { "img" : "img/book/RSSOlkha.png",
     "name" : "राष्ट्रीय स्वयंसेवक संघाला ओळखा..",
     "download" : "./books/RSSOlkha.pdf",
-    "discription" : "Know the RSS, we must know history of RSS, a so called, nationalistic organization."  
+    "discription" : "Is it true that the RSS idolizes fascism & Hitler? Is RSS loyal to National Flag? Is RSS loyal to Constitution of India? Does RSS have faith in Democracy, Secularism and Federalism? Why was RSS banned after the murder of Gandhiji? Did RSS support the Freedom Movement?"  
   },
   { "img" : "img/book/Fascism_Eng.png",
     "name" : "Spectre of Fascism.",

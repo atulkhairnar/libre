@@ -79,6 +79,9 @@ lokayat.config([ '$routeProvider', '$locationProvider', function($routeProvider,
             controller  : '',
             activeTab : ''
         })
+        .when('/pmc_elections', {
+            redirectTo : "/news/pmc_elections"
+        })
         .otherwise({ redirectTo: "/" });
 }]);
 

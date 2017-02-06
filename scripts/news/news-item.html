@@ -2,6 +2,10 @@
 	
 	<div class="row">
 		<div class="col-md-2 date-share">
+			<div class="author">
+				<strong ng-bind="entry.author"></strong>
+			</div>
+			<hr class="date-share-seperator">
 			<div class="updated-on">Updated on</div>
 			<hr class="date-share-seperator">
 			<div class="post-date" ng-bind="entry.date"></div>
@@ -13,18 +17,21 @@
 			<div class="article-title" ng-bind="entry.title"></div>
 			<div class="article-subtitle" ng-bind="entry.subtitle" ng-if="entry.subtitle"></div>
 			<div ng-if="entry.type != 'video'" class="article-image">
-				<img class="article-image-img" ng-src="{{entry.img}}">
+				<img class="article-image-img" ng-src="{{entry.img}}" image-mode>
 			</div>
 			<div ng-if="entry.type == 'video'" height="100%" class="postVidDiv">
                 <iframe  class="embed-responsive-item news-video" width="100%" src="{{video}}" frameborder="0" allowfullscreen></iframe>
             </div>
-			<p ng-repeat="p in entry.content">{{p}}</p>
+            <div ng-bind-html="postContent">
+            </div>
+			<!-- <p ng-repeat="p in content" ng-bind-html="post"></p> -->
 			<div class="row event-info"  ng-if="isEvent">
 				<event-info></event-info>
 			</div>
-			<div class="row download-div"  ng-if="isDownload">
+			<div class="row download-div" ng-if="entry.hasBtn">
 				<download-list class="downloadDir"></download-list>
 			</div>
+
 			<hr class="hr4">
 				<div class="social-share">
 					<social-share></social-share>

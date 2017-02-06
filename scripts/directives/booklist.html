@@ -4,7 +4,11 @@
 	</div>	
 	<div class="book-disc">
   		<b>{{ book.name }}</b>
-  		<p class="p-book-synopsis">{{book.discription}}</p>
-  		<a  class="a-book-download"  ng-href="{{ book.download}}" download><button class="btn btn-material-red-700">Download</button></a>
-	</div>
+  		<div class="p-book-synopsis">
+  			<p>{{book.discription}}</p>
+  		</div>
+  		<div class="book-download">	
+  			<a  class="a-book-download"  ng-href="{{ book.download}}" download><button class="btn btn-material-red-700">Download</button></a>
+		</div>
+  	</div>
 </div>

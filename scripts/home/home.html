@@ -8,8 +8,8 @@
                 <!-- </div> -->
             <!-- </a> -->    
         </div>
-        <a href="http://bit.do/syconf">
-            <img src="img/lsy.jpg" class="block-image">
+        <a href="http://lokayat.org.in/#/news/pmc_elections">
+            <img src="img/coverphoto.jpg" class="block-image">
         </a>
     </div>
 </div>
@@ -22,7 +22,7 @@
                     <a ng-href="#/news/{{post.link}}">
                         <h3 class="home-post-title" ng-bind="post.title"></h3>
                     </a>
-                    <img ng-if="post.type != 'video'" class="home-post-image" ng-src="{{post.img}}" alt="Description" />
+                    <img ng-if="post.type != 'video'" class="home-post-image" ng-src="{{post.img}}" alt="Description" image-mode />
                     <div ng-if="post.type == 'video'" height="100%" class="postVidDiv">
                         <iframe  class="embed-responsive-item post-video" width="100%" src="{{post.video}}" frameborder="0" allowfullscreen></iframe>
                     </div>
@@ -64,6 +64,11 @@
             </div>
             <div class="participate-div">
                 <div class="participate-text-div"><a href="#/join">Participate</a></div>
+            </div>
+            <div class="spi-image">
+                <a href="http://spi.org.in/" target="_blank">
+                    <img class="prop-img" src="img/spi.jpg" alt="Description" />
+                </a>
             </div>
             <div social-share></div>
         </div>
